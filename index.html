@@ -19,8 +19,10 @@
       socket.on('command', function(msg){
         if(msg=="pause"){
           player.pauseVideo();
+          console.log("video paused");
         } else {
           player.playVideo();
+          console.log("video paused");
         }
       });
     });
